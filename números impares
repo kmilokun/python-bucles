@@ -1,0 +1,10 @@
+
+inicio = int(input())
+final = int(input())
+resultado = []
+
+for i in range(inicio, final):
+    if i % 2 != 0:
+        resultado.append(i)
+
+print(resultado)
